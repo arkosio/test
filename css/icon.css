@@ -1,0 +1,52 @@
+.icon-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    
+}
+
+.icon-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.icon-fa {
+    text-align: center;
+    width: 33%;
+    background-color: white;
+    -webkit-transition: background-color .5s linear;
+    transition: background-color .5s linear;
+
+}
+
+.icon-fa:hover {
+    background-color: rgba(25,181,254,.4);
+    color: white;
+}
+
+.icon-fa:hover > i {
+    color: white;
+}
+
+.icon-fa i {
+    font-size: 800%;
+    color: rgba(248,148,6,.7);
+    text-shadow: 1px 1px 1px #ccc;
+    padding-top: 10px;
+}
+

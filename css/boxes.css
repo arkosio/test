@@ -1,0 +1,57 @@
+.box-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.boxes-pics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    
+}
+
+.box-pic {
+    width: 40%;
+    height: 250px;
+    margin: 2px;
+    background: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.text-box {
+    background: red;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.text-box h3 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+.text-box p {
+    color: white;
+    text-align: center;
+}

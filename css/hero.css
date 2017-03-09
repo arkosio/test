@@ -1,3 +1,54 @@
-.hero {
-    background-color: red;   
+.showcase {
+    height: 500px;
+    background-image: -webkit-linear-gradient(
+      top left,
+      rgba(25,181,254,.5),
+      rgba(248,148,6,.7) 
+    );
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(25,181,254,.5),
+      rgba(248,148,6,.7) 
+    );
+    margin-top: -21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.show-box {
+    background: white;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    border-bottom: 2px grey solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 50px;
+}
+
+.show-box p {
+    line-height: 200px;
+    margin: auto;
+}
+
+.show-box-mini {
+    background-color: ghostwhite;
+    width: 40%;
+    height: 75px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
 }
